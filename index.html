@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&amp;display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Resume Translator</title>
+    </head>
+    <body>
+
+        <div class="header">
+            <h1>RESUME TRANSLATOR... with just 2 steps!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Step 1: Field of study</h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>Select your choice of career.</h3>
+                <div class="dropdown">
+                    <div class="select">
+                        <span class="selected">Engineering</span>
+                        <div class="caret"></div>
+                    </div>         
+                    <ul class="menu">
+                        <li>Comp Sci</li>
+                        <li>Biochem</li>
+                        <li>Psychology</li>
+                        <li>Engineering</li>
+                        <li>Medicine</li>
+                        <li>Medicine</li>
+                        <li>Medicine</li>
+                        <li>Medicine</li>
+                        <li>Medicine</li>
+                        <li>Medicine</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>Step 2: Submit your resume</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>Choose your resume file, upload, and generate.</h3>
+                <input type="file" id="real-file" hidden="hidden"/>
+                <button type="button" id="custom-button">Choose a file</button>
+                <span id="custom-text"> No file chosen, yet.</span>
+                <br>
+                <br>
+                <button type="button" id="generate-button">AI Generate <a></a></button>
+            </div>
+        </div>
+
+        <nav class="sidebar">
+            <header>
+                <h2>Make Your Resume BETTER</h2>
+                <h3><a></a>Previous submissions</h3>
+            </header>
+            <div class="scrollbox">
+                <div class="scrollbox-inner">
+                    <p><a></a>May </p>
+                    
+                </div>
+            </div>
+            <footer>
+                    <p class="upgrade"><a></a>Upgrade</p>
+                    <p class="account"><a></a>Account</p>
+            </footer>
+        </nav>
+        <footer>
+            <p>© RESUME TRANSLATOR 2024. All rights reserved.</p>
+        </footer>
+
+        <!--javascript-->
+        <script src="scripts.js"></script>
+    </body>
+</html>
